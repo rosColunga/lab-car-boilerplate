@@ -1,0 +1,179 @@
+/*Media-queries. Especificaciones por tamaño de pantalla*/
+
+@media all and (min-width: 425px) {
+  .new-app-title {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .yellow {
+    height: 31vh;
+    width: 60vw;
+    margin: 14vh 0;
+    padding: 1.5rem;
+  }
+}
+
+@media all and (min-width: 768px) {
+
+  .float-options {
+    float: right;
+  }
+  .input-inline-block {
+    margin-top: 3%;;
+    display: inline-block;
+    width: 40vw;
+  }
+  .logo-white {
+    width: 10vw;
+    margin-bottom: 0.3px;
+    margin-left: 0.2vw;
+    margin-top: 0.3vh;
+  }
+
+  .blockOr {
+    display: block;
+  }
+
+  .display-line {
+    margin: 0.6em;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+  }
+  .display-line::after, .display-line::before {
+    content: " ";
+    display: inline-block;
+    width: 7em;
+    height: 1px;
+    background: #fff;
+    margin-bottom: 0.8vh;
+  }
+  .display-line::before {
+    margin-right: 0.5em;
+  }
+  .display-divOne {
+    display: none;
+  }
+  .display-divTwo {
+    display: block;
+  }
+  .display-size-margin {
+    display: inline;
+    font-size: 17px;
+    margin-right: 0.6em;
+  }
+
+  .download-text-display {
+    display: inline-block;
+    color: #fff;
+    margin: 1rem 0.5rem 0.5rem 1.5rem;
+  }
+  .download-title {
+    line-height: 3em;
+  }
+  .map-padding {
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  .navbar {
+    padding: 10px 5px;
+  }
+
+  .phone-first-text-display {
+    display: none;
+  }
+  .phone-image {
+    width: 30vw;
+  }
+  .style-title {
+    color: #fff;
+    font-weight: 600;
+    display: inline;
+  }
+  .taxi {
+    height: 80vh;
+  }
+  .yellow {
+    height: auto;
+    width: 47vw;
+    padding: 0.5em 1.8em;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .taxi {
+    height: 40vh;
+  }
+  .yellow {
+    height: auto;
+    width: auto;
+    padding: 3vh 3vw;
+  }
+
+}
+
+@media all and (min-width: 1200px) {
+
+  div.phone-div.border-special {
+    position: relative;
+    left: -15%;
+    border: 1px solid #fff;
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+    width: 95vw;
+  }
+
+  footer {
+    padding-bottom: 8vh;
+  }
+
+  #map {
+    height: 50vh;
+  }
+
+  .col-sm-6.opacity, .col-lg-4.opacity {
+    float: right;
+    overflow: hidden;
+  }
+
+  .download-text-display {
+    width: 30vw;
+    padding-top: 10vh;
+  }
+
+  .download-text-display p {
+    font-size: 17px;
+  }
+
+  .input-inline-block {
+    display: inline-block;
+    width: 80%;
+  }
+  .input-margin {
+    margin: 1.5vh 0;
+  }
+  .logo-footer-image {
+    width: 6vw;
+    height: auto;
+    margin-top: 8vh;
+  }
+
+  .phone-image {
+    margin-right: 10vw;
+  }
+  .price-div {
+    padding: 5vh 4vw;
+    margin: 6vh 6vw;
+  }
+
+  .taxi {
+    height: auto;
+  }
+
+  .yellow {
+    height: auto;
+    width: auto;
+    padding: 3vh 3vw;
+  }
+}

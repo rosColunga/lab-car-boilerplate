@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2xis4h');
+  src:  url('fonts/icomoon.eot?2xis4h#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2xis4h') format('truetype'),
+    url('fonts/icomoon.woff?2xis4h') format('woff'),
+    url('fonts/icomoon.svg?2xis4h#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-social-facebook:before {
+  content: "\e900";
+}
+.icon-chevron-down:before {
+  content: "\e901";
+}
+.icon-twitter:before {
+  content: "\e902";
+}
+.icon-lock:before {
+  content: "\e903";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-appleinc:before {
+  content: "\eabe";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
